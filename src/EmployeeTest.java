@@ -1,3 +1,4 @@
+import com.sun.scenario.effect.impl.sw.java.JSWBlend_SRC_OUTPeer;
 import org.omg.CORBA.IntHolder;
 
 import java.io.IOException;
@@ -130,6 +131,12 @@ public class EmployeeTest {
         // Thread.sleep(1000000);
         TimePrinter.repeat(10, () -> System.out.println("shiny"));
 
-
+        System.out.println("ACC");
+        String shiny = "shiny";
+        System.out.println(Arrays.toString(shiny.getBytes()));
+        System.out.println(shiny.substring(2,4) + " NanJin");
+        System.out.println(shiny.toUpperCase().toLowerCase());
+        System.out.println();
+        System.out.println();
     }
 }

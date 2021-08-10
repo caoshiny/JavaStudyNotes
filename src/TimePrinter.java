@@ -10,6 +10,5 @@ public class TimePrinter implements ActionListener {
     public static void repeat(int n, Runnable action){
         for (int i = 0; i < n; i ++)
             action.run();
-        System.out.println("aaaaaaaa");
     }
 }
