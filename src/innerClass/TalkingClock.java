@@ -1,5 +1,6 @@
 package innerClass;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,7 +16,9 @@ public class TalkingClock {
     }
 
     public void start() {
-
+        ActionListener listener = new TimePrinter();
+        Timer t = new Timer(interval, listener);
+        t.start();
     }
 
     // TalkingClock
@@ -24,6 +27,8 @@ public class TalkingClock {
             System.out.println("now - " + new Date());
             if (beep)
                 Toolkit.getDefaultToolkit().beep();
+            // if(outer.beep)
+
         }
     }
 }
