@@ -27,8 +27,7 @@ public class TalkingClock {
             System.out.println("now - " + new Date());
             if (beep)
                 Toolkit.getDefaultToolkit().beep();
-            // if(outer.beep)
-
+            
         }
     }
 }
