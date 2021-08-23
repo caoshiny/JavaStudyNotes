@@ -34,5 +34,7 @@ public class Test implements Powered, Cloneable, defaultInterface{
 
         Powered.printConsole();
         Test.printConsole();
+
+
     }
 }
