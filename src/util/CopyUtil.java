@@ -1,7 +1,9 @@
+package util;
+
 import java.io.*;
 import java.util.Arrays;
 
-public class CopyFileDemo {
+public class CopyUtil {
     public static void main(String[] args) throws IOException {
         //输入流
         InputStream in = new FileInputStream("C:\\Users\\USER\\Desktop\\1.png_");
