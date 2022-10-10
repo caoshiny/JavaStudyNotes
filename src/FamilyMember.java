@@ -21,7 +21,7 @@ public class FamilyMember {
         String answer = null;
         int i = 0;
         for (i = 0; i < root.numberOfChildren; i++) {
-            if (root.children[i].name == member.name) {
+            if (root.children[i].name.equals(member.name)) {
                 answer = root.name;
                 return answer;
             }
