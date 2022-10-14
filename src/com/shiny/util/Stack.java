@@ -1,7 +1,6 @@
 package com.shiny.util;
 
-import java.util.LinkedList;
-import java.util.Set;
+import java.util.*;
 
 /**
  * 用 LinkedList 实现栈
@@ -42,6 +41,5 @@ public class Stack<T> {
         while (!stringStack.empty()) {
             System.out.println(stringStack.poll());
         }
-        
     }
 }
