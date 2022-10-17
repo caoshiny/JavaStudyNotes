@@ -12,7 +12,6 @@ public class Shapes {
         for (Shape shape: shapes) {
             shape.draw();
             shape.erase();
-
         }
     }
 }
